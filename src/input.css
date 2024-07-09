@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+
+        src: url(/fonts/Roboto.woff2) format('woff2');
+    }
+}
+
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: -webkit-linear-gradient(#5fcc16, #2a7e0a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
