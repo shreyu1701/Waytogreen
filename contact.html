@@ -30,19 +30,28 @@
 	</div> -->
 
 	<header>
-		<div class="border-t-[40px] border-t-lime-400">
+		<div class="border-t-[40px] border-t-lime-500">
 			<div class="lg:flex justify-between lg:px-6 sm:px-3">
 				<a class="align-middle" href="index.html">
 					<h2
-						class="bungee-spice-regular lg:text-4xl sm:text-2xl sm:text-center lg:pt-6 sm:pt-6 align-center">
+						class="bungee-spice-regular lg:text-4xl sm:text-2xl max-sm:text-center lg:pt-6 sm:pt-6 text-center">
 						Way To Green</h2>
 				</a>
 				<nav class="align-middle">
-					<ul class="flex text-xl items-center max-w-full my-4 justify-evenly  bg-white text-green-700 font-bold">
-						<a href="blog.html"><li class="lg:m-3 lg:px-4 align-middle">Blog</li></a>
-						<a href="contact.html"><li class="lg:m-3 lg:px-4 align-middle">Contact</li></a>
-						<a href="about.html"><li class="lg:m-3 lg:px-4 align-middle">About</li></a>
-						<a href="faq.html"><li class="lg:m-3 lg:px-4 align-middle">FAQ</li></a>
+					<ul
+						class="flex text-xl items-center max-w-full my-4 justify-evenly  bg-white text-green-700 font-bold">
+						<a href="blog.html">
+							<li class="lg:m-3 lg:px-4 align-middle">Blog</li>
+						</a>
+						<a href="contact.html">
+							<li class="lg:m-3 lg:px-4 align-middle">Contact</li>
+						</a>
+						<a href="about.html">
+							<li class="lg:m-3 lg:px-4 align-middle">About</li>
+						</a>
+						<a href="faq.html">
+							<li class="lg:m-3 lg:px-4 align-middle">FAQ</li>
+						</a>
 					</ul>
 				</nav>
 			</div>
@@ -52,35 +61,91 @@
 
 
 	<main>
-        <h1>Contact</h1>
-    </main>
+		<div class="py-24 bg-lime-500 ">
+			<div class="text-center  text-5xl font-bold">
+				<h2 class="py-5">CONTACT US</h2>
+			</div>
+
+
+			<div class="text-center mx-auto justify-center text-xl ">
+				<form class=" mx-10 px-10">
+					<div class="flex flex-col flex-wrap items-center">
+
+						<div class="border-4 rounded-full mb-3 bg-transparent">
+							<input class="py-2 px-3 lg:w-96 sm:w-fit bg-inherit  focus:outline-0 placeholder:text-black"
+								autocomplete="off" type="text" id="name" name="name" placeholder="Name" required>
+						</div>
+						<div class="border-4 rounded-full mb-3 bg-transparent">
+							<input class="py-2 px-3 lg:w-96 sm:w-fit bg-inherit  focus:outline-0 placeholder:text-black"
+								autocomplete="off" type="email" id="email" name="email" placeholder="Email" required>
+						</div>
+						<div class="border-4 rounded-full mb-3 bg-transparent">
+							<input class="py-2 px-3 lg:w-96 sm:w-fit bg-inherit  focus:outline-0 placeholder:text-black"
+								autocomplete="off" type="text" id="number" name="number" placeholder="+1 123-456-7890"
+								pattern="/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/" maxlength="12" required>
+						</div>
+						<div class="border-4 rounded-full mb-3 bg-transparent">
+							<input class="py-2 px-3 lg:w-96 sm:w-fit bg-inherit  focus:outline-0 placeholder:text-black"
+								type="text" id="subject" name="subject" placeholder="Your Subject" required>
+						</div>
+						<div class="border-4 rounded-lg mb-3 bg-transparent">
+							<textarea
+								class="py-2 px-3 lg:w-96 sm:w-fit  w-full bg-inherit  focus:outline-0 placeholder:text-black"
+								id="message" name="message" rows="6" placeholder="Write Your Message"
+								required></textarea>
+						</div>
+						<div class="border-4 rounded-full mb-3">
+							<button class="p-2 px-2 bg-green-950 rounded-full text-white hover:w-36" type="submit">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+
+
+		</div>
+	</main>
 
 
 	<footer class=" mt-4 border-t-4  border-lime-700">
 		<div class="flex justify-between p-3 m-4 align-middle">
 			<div>
-				<img class="w-96 " src="/images/Way-To-Green-logo.png" alt="logo">
+				<img class="w-96 " src="./images/Way-To-Green-logo.png" alt="logo">
 			</div>
-			<div class="font-serif m-3 text-2xl">
-				<div class="font-serif font-extrabold text-black opacity-70 m-3">Newsletter's</div>
+			<div class="font-serif text-2xl">
+				<div class="font-serif font-extrabold text-black opacity-70 m-3 max-sm:text-sm ">Newsletter's</div>
 				<form class="w-full max-w-sm">
-					<div class="flex items-center">
+					<div class="flex items-center max-lg:flex-col max-md:flex-col ">
 						<input
 							class="appearance-none bg-transparent border-none w-full text-black opacity-70 text-lg  py-1 px-2 leading-tight focus:outline-none"
 							type="email" placeholder="example@gmail.com">
-						<button
-							class="flex-shrink-0 bg-lime-700 border-lime-700 hover:bg-lime-300 hover:border-lime-700 hover:text-black hover:opacity-70 text-lg border-4 text-white py-1 px-2 rounded"
-							type="button">
+						<button type="submit"
+							class="flex-shrink-0  bg-lime-700 border-lime-700 hover:bg-lime-300 hover:border-lime-700 hover:text-black hover:opacity-70 text-lg border-4 text-white py-1 px-2 rounded">
 							Subscribe
 						</button>
-						<button
-							class="flex-shrink-0 border-transparent border-4 text-lime-500 hover:text-lime-800 text-lg py-1 px-2 rounded"
-							type="button">
+						<button type="reset"
+							class="flex-shrink-0 border-transparent border-4 text-lime-500 hover:text-lime-800 text-lg py-1 px-2 rounded">
 							Cancel
 						</button>
 					</div>
 				</form>
 			</div>
+			<div class="w-min">
+				<div id="google_translate_element"></div>
+				<script type="text/javascript">
+					function googleTranslateElementInit() {
+						new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+					}
+				</script>
+
+				<script type="text/javascript"
+					src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+					</script>
+
+			</div>
+			<!-- translate -->
+
+
+			<!-- translate End -->
 		</div>
 		<div class="">
 			<h2 class="font-serif font-extrabold text-green-950 m-5 text-center">&copy; Copyright, 2024 </h2>

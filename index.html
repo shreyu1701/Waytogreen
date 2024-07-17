@@ -30,11 +30,11 @@
 	</div> -->
 
 	<header>
-		<div class="border-t-[40px] border-t-lime-400">
+		<div class="border-t-[40px] border-t-lime-500">
 			<div class="lg:flex justify-between lg:px-6 sm:px-3">
 				<a class="align-middle" href="index.html">
 					<h2
-						class="bungee-spice-regular lg:text-4xl sm:text-2xl sm:text-center lg:pt-6 sm:pt-6 align-center">
+						class="bungee-spice-regular lg:text-4xl sm:text-2xl max-sm:text-center lg:pt-6 sm:pt-6 text-center">
 						Way To Green</h2>
 				</a>
 				<nav class="align-middle">
@@ -63,7 +63,7 @@
 	<main>
 		<!-- Start Sliders -->
 		<div class="">
-			<img class="w-screen h-fit rounded-3xl" src="/images/sandie-clarke-q13Zq1Jufks-unsplash.jpg" alt="">
+			<img class="w-screen h-fit rounded-3xl" src="./images/sandie-clarke-q13Zq1Jufks-unsplash.jpg" alt="">
 		</div>
 		<!-- End Sliders -->
 
@@ -92,17 +92,17 @@
 	<footer class=" mt-4 border-t-4  border-lime-700">
 		<div class="flex justify-between p-3 m-4 align-middle">
 			<div>
-				<img class="w-96 " src="/images/Way-To-Green-logo.png" alt="logo">
+				<img class="w-96 " src="./images/Way-To-Green-logo.png" alt="logo">
 			</div>
-			<div class="font-serif m-3 text-2xl">
-				<div class="font-serif font-extrabold text-black opacity-70 m-3">Newsletter's</div>
+			<div class="font-serif text-2xl">
+				<div class="font-serif font-extrabold text-black opacity-70 m-3 max-sm:text-sm ">Newsletter's</div>
 				<form class="w-full max-w-sm">
-					<div class="flex items-center">
+					<div class="flex items-center max-lg:flex-col max-md:flex-col ">
 						<input
 							class="appearance-none bg-transparent border-none w-full text-black opacity-70 text-lg  py-1 px-2 leading-tight focus:outline-none"
 							type="email" placeholder="example@gmail.com">
 						<button type="submit"
-							class="flex-shrink-0 bg-lime-700 border-lime-700 hover:bg-lime-300 hover:border-lime-700 hover:text-black hover:opacity-70 text-lg border-4 text-white py-1 px-2 rounded">
+							class="flex-shrink-0  bg-lime-700 border-lime-700 hover:bg-lime-300 hover:border-lime-700 hover:text-black hover:opacity-70 text-lg border-4 text-white py-1 px-2 rounded">
 							Subscribe
 						</button>
 						<button type="reset"
@@ -112,19 +112,21 @@
 					</div>
 				</form>
 			</div>
-
-			<!-- translate -->
-			<div id="google_translate_element"></div>
-
-			<script type="text/javascript">
-				function googleTranslateElementInit() {
-					new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
-				}
-			</script>
-
-			<script type="text/javascript"
-				src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+			<div class="w-min">
+				<div id="google_translate_element"></div>
+				<script type="text/javascript">
+					function googleTranslateElementInit() {
+						new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+					}
 				</script>
+
+				<script type="text/javascript"
+					src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+				</script>
+
+			</div>
+			<!-- translate -->
+
 
 			<!-- translate End -->
 		</div>
