@@ -22,3 +22,26 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}

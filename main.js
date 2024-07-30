@@ -1,7 +1,7 @@
 $(function () {
 
   setTimeout(function () {
-    $(".loader_bg").fadeToggle().setTimeout("display", "none");
+    $(".loader_bg").fadeToggle();
   }, 1500);
 
   // setTimeout(function () {
@@ -14,4 +14,6 @@ $(function () {
   
   
 });
+
+
 
